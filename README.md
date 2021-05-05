@@ -16,6 +16,9 @@ When I run the task `./gradlew jacocoTestReport` it creates a report under `libr
 
 ![code coverage report](code_coverage_report.png)
 
+----- Opposite problem with the new plugin (running `./gradlew clean library:combinedTestReportDebug`) -----
+![opposite problem code coverage report](opposite-problem.png)
+
 However the unit tests are not included ☹️
 
 Looking at [the codecov repo](https://codecov.io/gh/wise4rmgod/CodeCoverage_Example) you can see they also have the same issue, their `util/TextMethods` shows 0% coverage.
