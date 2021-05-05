@@ -19,3 +19,5 @@ When I run the task `./gradlew jacocoTestReport` it creates a report under `libr
 However the unit tests are not included ☹️
 
 Looking at [the codecov repo](https://codecov.io/gh/wise4rmgod/CodeCoverage_Example) you can see they also have the same issue, their `util/TextMethods` shows 0% coverage.
+
+What do I need to fix to get a combined report with both androidTests and tests?
